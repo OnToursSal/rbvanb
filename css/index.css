@@ -1,0 +1,133 @@
+:root {
+  --navy: rgba(0, 48, 146, 1);
+  --navy-light: rgba(21, 93, 238, 1);
+  --color-bttnCard: rgb(255, 0, 119);
+  --color-bttnCard-hover: rgb(255, 0, 80);
+  --blue-dark: rgb(126, 146, 236);
+  --teal: rgba(0, 135, 158, 1);
+  --blue-light: rgba(21, 241, 221, 0.2);
+  /* --textColor-light: rgb(240, 245, 225); */
+  --light: rgba(255, 242, 219, 1);
+  --textColor-dark: rgb(124, 10, 10);
+  --boxSadow: 3px 3px 8px rgba(128, 128, 128, 0.5);
+  /* --border-dark: 2px solid rgb(0, 0, 255); */
+  --border-light: 2px solid rgba(21, 241, 221, 0.2);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: var(--navy);
+
+  .titleItem {
+    border: var(--navy);
+    border-radius: 50px;
+    color: var(--light);
+    background: linear-gradient(
+      0.25turn,
+      var(--teal),
+      var(--navy-light),
+      var(--navy-light),
+      var(--teal)
+    );
+  }
+}
+.topTitle {
+  color: var(--color-bttnCard);
+  font-size: 15px;
+  font-weight: bolder;
+}
+.topText {
+  color: var(--navy);
+  font-weight: bolder;
+}
+.colD {
+  background-color: var(--light);
+  color: var(--textColor-dark);
+  border-radius: 0.3em;
+  box-shadow: var(--boxSadow);
+}
+.colHero {
+  border-radius: 10px;
+  border: var(--navy);
+  box-shadow: var(--boxSadow);
+  background-color: var(--light);
+}
+.itemTitle {
+  background-color: var(--navy);
+  color: var(--light);
+  border-radius: 10px;
+  border: var(--navy);
+}
+button {
+  background-color: var(--navy);
+  color: var(--light);
+  border-radius: 10px;
+  border: var(--border-light);
+  box-shadow: var(--boxSadow);
+}
+button:hover {
+  cursor: pointer;
+}
+.cardImg {
+  width: 100%;
+  border-radius: 10px;
+  padding: 0;
+  margin: 0;
+}
+.rowCard {
+  border-radius: 10px;
+  border: var(--navy);
+  box-shadow: var(--boxSadow);
+  background-color: var(--light);
+}
+.col1 {
+  display: inline-block;
+
+  width: 40%;
+}
+hr {
+  height: 15px;
+  background-color: red;
+  color: red;
+}
+.titleCard {
+  color: var(--textColor-dark);
+  font-weight: bolder;
+}
+.col2 {
+  display: block;
+
+  width: 60%;
+}
+/* .col3 {
+  font-size: 5px;
+  display: block;
+  align-self: center;
+  width: 10%;
+} */
+.cardText {
+  font-size: 14px;
+}
+.btnCard {
+  width: 80%;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+  height: 30px;
+  color: var(--color-bttnCard);
+  border: none;
+  transition: 0.5s;
+}
+.btnCard:hover {
+  /* font-size: 20px; */
+  color: var(--color-bttnCard-hover);
+  padding-right: 25px;
+}
+
+footer {
+  height: 130px;
+}

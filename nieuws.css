@@ -1,0 +1,70 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #ffd300;
+  /* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
+  margin: 0;
+}
+.logo {
+  height: 5em;
+  width: 5em;
+  border-radius: 1em;
+  margin-left: 0.5em;
+}
+#temp-div p {
+  font-size: 1em;
+}
+#weather-info {
+  font-size: 0.5rem;
+}
+#city-div {
+  font-size: 0.8rem;
+  margin-left: -14px;
+  margin-right: -14px;
+}
+#hum-div {
+  font-size: 0.7rem;
+  margin-bottom: 5px;
+}
+#description-div {
+  font-size: 0.8rem;
+  margin-top: -5px;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+#weather-icon {
+  width: 3em;
+  height: 3em;
+}
+@media (min-width: 750px) {
+  #temp-div {
+    font-size: 1.5em;
+  }
+  #weather-info {
+    font-size: 4.5em;
+  }
+  #city-div {
+    font-size: 1.1em;
+  }
+
+  #description-div {
+    font-size: 1.5em;
+  }
+}
+@media (min-width: 1250px) {
+  #temp-div {
+    font-size: 1.5em;
+  }
+  #weather-info {
+    font-size: 2em;
+  }
+  #city-div {
+    font-size: 1.1em;
+  }
+
+  #description-div {
+    font-size: 2em;
+  }
+}
